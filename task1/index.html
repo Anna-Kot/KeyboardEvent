@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .color_table, .images_table {
+            width: 38%;
+            height: 300px;
+            margin: 10px auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+        }
+        .block_col, .block_img {
+            width: 33.334%;
+            height: 100px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            border-collapse: collapse;
+        }
+        .block_img {
+            background-size: contain;
+        }
+        p {
+            cursor: default;
+        }
+    </style>
+</head>
+<body>
+    <p class="color">Колір</p>
+    <p class="images">Зображення</p>
+    <div class="color_t">
+        <div class="block_c" onclick="addColor()" style="background-color: blue;"></div>
+        <div class="block_c" onclick="addColor()" style="background-color: yellow;"></div>
+        <div class="block_c" onclick="addColor()" style="background-color: green;"></div>
+        <div class="block_c" onclick="addColor()" style="background-color: rgb(231, 138, 50);"></div>
+        <div class="block_c" onclick="addColor()" style="background-color: rgb(32, 163, 43);"></div>
+        <div class="block_c" onclick="addColor()" style="background-color: rgb(133, 18, 71);"></div>
+        <div class="block_c" onclick="addColor()" style="background-color: rgb(255, 0, 98);"></div>
+        <div class="block_c" onclick="addColor()" style="background-color: rgb(172, 189, 95);"></div>
+        <div class="block_c" onclick="addColor()" style="background-color: rgb(64, 124, 151);"></div>
+    </div>
+    <div class="images_t">
+        <div class="block_i" onclick="addPhoto()" style="background-image: url(https://proprikol.ru/wp-content/uploads/2019/09/kartinki-krasivye-priroda-na-rabochij-stol-na-ves-ekran-1-1.jpg);"></div>
+        <div class="block_i" onclick="addPhoto()" style="background-image: url(https://сезоны-года.рф/sites/default/files/images/journal/quotes.jpg);"></div>
+        <div class="block_i" onclick="addPhoto()" style="background-image: url(https://bipbap.ru/wp-content/uploads/2017/04/priroda_kartinki_foto_03.jpg);"></div>
+        <div class="block_i" onclick="addPhoto()" style="background-image: url(https://bipbap.ru/wp-content/uploads/2017/07/109c2cbe5bfbeb32a48fad5a550b24c6-236x240.jpg);"></div>
+        <div class="block_i" onclick="addPhoto()" style="background-image: url(https://www.ejin.ru/wp-content/uploads/2017/11/98312860_4278666_1327494967_77886662_kollektsija_krasivyx_oboev_na_temu___priroda_4_hq_2011_914408_resize.jpg);"></div>
+        <div class="block_i" onclick="addPhoto()" style="background-image: url(https://cdn.fishki.net/upload/post/201410/18/1317367/bnutyun.jpg);"></div>
+        <div class="block_i" onclick="addPhoto()" style="background-image: url(https://www.ejin.ru/wp-content/uploads/2017/09/1-887.jpg);"></div>
+        <div class="block_i" onclick="addPhoto()" style="background-image: url(https://i.ytimg.com/vi/qBNi4PlyPcQ/maxresdefault.jpg);"></div>
+        <div class="block_i" onclick="addPhoto()" style="background-image: url(https://12millionov.com/wp-content/uploads/2016/08/%D0%A4%D0%BE%D1%82%D0%BE-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D1%8B_1.jpg);"></div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>

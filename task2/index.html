@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <div class="write"></div>
+    <div id=keyboard>
+    <div class="line_1">
+        <div class="l_1 n" data="192">`</div>
+        <div class="l_1 n" data="49">1</div>
+        <div class="l_1 n" data="50">2</div>
+        <div class="l_1 n" data="51">3</div>
+        <div class="l_1 n" data="52">4</div>
+        <div class="l_1 n" data="53">5</div>
+        <div class="l_1 n" data="54">6</div>
+        <div class="l_1 n" data="55">7</div>
+        <div class="l_1 n" data="56">8</div>
+        <div class="l_1 n" data="57">9</div>
+        <div class="l_1 n" data="48">0</div>
+        <div class="l_1 n" data="189">-</div>
+        <div class="l_1 n" data="187">=</div>
+        <div class="l_1_big1 n" data="8" >Backspace</div>
+    </div>
+    <div class="line_2">
+        <div class="l_1_big1 n" data="9" onclick="tab_click">Tab</div>
+        <div class="l_1 n" data="81">q</div>
+        <div class="l_1 n" data="87">w</div>
+        <div class="l_1 n" data="69">e</div>
+        <div class="l_1 n" data="82">r</div>
+        <div class="l_1 n" data="84">t</div>
+        <div class="l_1 n" data="89">y</div>
+        <div class="l_1 n" data="85">u</div>
+        <div class="l_1 n" data="73">i</div>
+        <div class="l_1 n" data="79">o</div>
+        <div class="l_1 n" data="80">p</div>
+        <div class="l_1 n" data="219">[</div>
+        <div class="l_1 n" data="221">]</div>
+        <div class="l_1 n" data="220">\</div> 
+    </div>
+    <div class="line_3">
+        <div class="l_1_big2 n" data="20" >CapsLock</div>
+        <div class="l_1 n" data="65">a</div>
+        <div class="l_1 n" data="83">s</div>
+        <div class="l_1 n" data="68">d</div>
+        <div class="l_1 n" data="70">f</div>
+        <div class="l_1 n" data="71">g</div>
+        <div class="l_1 n" data="72">h</div>
+        <div class="l_1 n" data="74">j</div>
+        <div class="l_1 n" data="75">k</div>
+        <div class="l_1 n" data="76">l</div>
+        <div class="l_1 n" data="186">;</div>
+        <div class="l_1 n" data="222">'</div>
+        <div class="l_1_big11 n" data="13" >Enter</div>
+    </div>
+    <div class="line_4">
+        <div class="l_1_big3 n" data="16" data-code="ShiftLeft" >shift</div>
+        <div class="l_1 n" data="90">z</div>
+        <div class="l_1 n" data="88">x</div>
+        <div class="l_1 n" data="67">c</div>
+        <div class="l_1 n" data="86">v</div>
+        <div class="l_1 n" data="66">b</div>
+        <div class="l_1 n" data="78">n</div>
+        <div class="l_1 n" data="77">m</div>
+        <div class="l_1 n" data="188">,</div>
+        <div class="l_1 n" data="190">.</div>
+        <div class="l_1 n" data="191">/</div>
+        <div class="l_1_big3 n" data="16" data-code="ShiftRight" >shift</div>
+    </div>
+    <div class="line_5 n" data="32"></div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- onclick="event.preventDefault()" -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <div class="write"></div>
+    <div id=keyboard>
+    <div class="line_1">
+        <div class="l_1 n" data="96">`</div>
+        <div class="l_1 n" data="49">1</div>
+        <div class="l_1 n" data="50">2</div>
+        <div class="l_1 n" data="51">3</div>
+        <div class="l_1 n" data="52">4</div>
+        <div class="l_1 n" data="53">5</div>
+        <div class="l_1 n" data="54">6</div>
+        <div class="l_1 n" data="55">7</div>
+        <div class="l_1 n" data="56">8</div>
+        <div class="l_1 n" data="57">9</div>
+        <div class="l_1 n" data="48">0</div>
+        <div class="l_1 n" data="45">-</div>
+        <div class="l_1 n" data="61">=</div>
+        <div class="l_1_big1">Backspace</div>
+    </div>
+    <div class="line_2">
+        <div class="l_1_big1">Tab</div>
+        <div class="l_1 n" data="113">q</div>
+        <div class="l_1 n" data="119">w</div>
+        <div class="l_1 n" data="101">e</div>
+        <div class="l_1 n" data="114">r</div>
+        <div class="l_1 n" data="116">t</div>
+        <div class="l_1 n" data="121">y</div>
+        <div class="l_1 n" data="117">u</div>
+        <div class="l_1 n" data="105">i</div>
+        <div class="l_1 n" data="111">o</div>
+        <div class="l_1 n" data="112">p</div>
+        <div class="l_1 n" data="91">[</div>
+        <div class="l_1 n" data="93">]</div>
+        <div class="l_1 n" data="92">\</div> 
+    </div>
+    <div class="line_3">
+        <div class="l_1_big2">CapsLock</div>
+        <div class="l_1 n" data="97">a</div>
+        <div class="l_1 n" data="115">s</div>
+        <div class="l_1 n" data="100">d</div>
+        <div class="l_1 n" data="102">f</div>
+        <div class="l_1 n" data="103">g</div>
+        <div class="l_1 n" data="104">h</div>
+        <div class="l_1 n" data="106">j</div>
+        <div class="l_1 n" data="107">k</div>
+        <div class="l_1 n" data="108">l</div>
+        <div class="l_1 n" data="59">;</div>
+        <div class="l_1 n" data="39">'</div>
+        <div class="l_1_big11 n" data="13">Enter</div>
+    </div>
+    <div class="line_4">
+        <div class="l_1_big3">shift</div>
+        <div class="l_1 n" data="122">z</div>
+        <div class="l_1 n" data="120">x</div>
+        <div class="l_1 n" data="99">c</div>
+        <div class="l_1 n" data="118">v</div>
+        <div class="l_1 n" data="98">b</div>
+        <div class="l_1 n" data="110">n</div>
+        <div class="l_1 n" data="109">m</div>
+        <div class="l_1 n" data="44">,</div>
+        <div class="l_1 n" data="46">.</div>
+        <div class="l_1 n" data="47">/</div>
+        <div class="l_1_big3">shift</div>
+    </div>
+    <div class="line_5 n" data="32"></div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> -->
